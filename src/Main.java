@@ -126,7 +126,7 @@ public class Main {
 			}else if(csvFile.contains("VALFREDO")) {
 				return "721";
 			}
-		}else if(campos[4].contains("BLACK &")) {
+		}else if(campos[4].contains("BLACK &") || campos[4].contains("BLACK E DEC")) {
 			if(csvFile.contains("GUSTAVO")) {
 				return "701";
 			}else if(csvFile.contains("VALFREDO")) {
@@ -158,6 +158,10 @@ public class Main {
 				return "855";
 			}else if(csvFile.contains("VALFREDO")) {
 				return "1291";
+			}
+		}else if(campos[4].contains("VFS")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "4542";
 			}
 		}else if(campos[4].contains("TORO CO")) {
 			if(csvFile.contains("GUSTAVO")) {
@@ -204,13 +208,109 @@ public class Main {
 			}else if(csvFile.contains("VALFREDO")) {
 				return "1329";
 			}
+		}else if(campos[4].contains("Devoluç Cheque Depositado")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "504";
+			}
+		}else if(campos[4].contains("Folha de Pagamento")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "187";
+			}
+		}else if(campos[4].contains("FGTS")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "192";
+			}
+		}else if(campos[4].contains("IPVA")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "349";
+			}
+		}else if(campos[4].contains("CELPE")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "354";
+			}
+		}else if(campos[4].contains("1TELECOM")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "558";
+			}
+		}else if(campos[4].contains("A LAYSE")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "361";
+			}
+		}else if(campos[4].contains("ADMINISTRACAO E COMERCIO")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "341";
+			}
+		}else if(campos[4].contains("ADOLFO e")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "365";
+			}
+		}else if(campos[4].contains("ALELO")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "521";
+			}
+		}else if(campos[4].contains("ASAAS")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "364";
+			}
+		}else if(campos[4].contains("ASSOCIACAO") ||  campos[4].contains("CAMARA DE") || campos[4].contains("CDL CAMARA")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "362";
+			}
+		}else if(campos[4].contains("CENTRAL DOS GAN")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "4272";
+			}
+		}else if(campos[4].contains("DANTE A")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "540";
+			}
+		}else if(campos[4].contains("ENERGISA ")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "354";
+			}
+		}else if(campos[4].contains("GUSTAVO WANDERLEY")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "4542";
+			}
+		}else if(campos[4].contains("HOTLINK ")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "364";
+			}
+		}else if(campos[4].contains("HUMANA ASSISTENCIA")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "339";
+			}
+		}else if(campos[4].contains("IMD COM")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "6635";
+			}
+		}else if(campos[4].contains("IUGU")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "4437";
+			}
+		}else if(campos[4].contains("J.P ")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "1003";
+			}
+		}else if(campos[4].contains("JJI ")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "1748";
+			}
+		}else if(campos[4].contains("KIKI")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "540";
+			}
+		}else if(campos[4].contains("INTERMEDICA")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "364";
+			}
 		}else if(campos[4].contains("CRIATIVA")) {
 			if(csvFile.contains("GUSTAVO")) {
 				return "893";
 			}else if(csvFile.contains("VALFREDO")) {
 				return "1620";
 			}
-		}else if(campos[4].contains("FLORAPAC")) {
+		}else if(campos[4].contains("FLORAPLAC")) {
 			if(csvFile.contains("GUSTAVO")) {
 				return "897";
 			}else if(csvFile.contains("VALFREDO")) {
@@ -237,11 +337,23 @@ public class Main {
 			}else if(csvFile.contains("VALFREDO")) {
 				return "1609";
 			}
+		}else if(campos[4].contains("LINX")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "364";
+			}
+		}else if(campos[4].contains("MAGAZINE")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "4544";
+			}
 		}else if(campos[4].contains("LARTECNICA")) {
 			if(csvFile.contains("GUSTAVO")) {
 				return "942";
 			}else if(csvFile.contains("VALFREDO")) {
 				return "4202";
+			}
+		}else if(campos[4].contains("LARFORT")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "4176";
 			}
 		}else if(campos[4].contains("JAS COM")) {
 			if(csvFile.contains("GUSTAVO")) {
@@ -297,7 +409,7 @@ public class Main {
 			}else if(csvFile.contains("VALFREDO")) {
 				return "2458";
 			}
-		}else if(campos[4].contains("LDB LOG E")) {
+		}else if(campos[4].contains("LDB LOG")) {
 			if(csvFile.contains("GUSTAVO")) {
 			return "996";}
 		}else if(campos[4].contains("PAUMA (")) {
@@ -330,7 +442,7 @@ public class Main {
 		}else if(campos[4].contains("ARTETILICA")) {
 			if(csvFile.contains("GUSTAVO")) {
 			return "1023";}
-		}else if(campos[4].contains("ROBERT BOSCH")) {
+		}else if(campos[4].contains("BOSCH")) {
 			if(csvFile.contains("GUSTAVO")) {
 				return "1032";
 			}else if(csvFile.contains("VALFREDO")) {
@@ -365,6 +477,10 @@ public class Main {
 				return "1072";
 			}else if(csvFile.contains("VALFREDO")) {
 				return "2022";
+			}
+		}else if(campos[4].contains("QUIMY")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "572";
 			}
 		}else if(campos[4].contains("ITALY LIN")) {
 			if(csvFile.contains("GUSTAVO")) {
@@ -417,6 +533,10 @@ public class Main {
 		}else if(campos[4].contains("LATORRE TR")) {
 			if(csvFile.contains("GUSTAVO")) {
 			return "1348";}
+		}else if(campos[4].contains("CTBC ")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "356";
+			}
 		}else if(campos[4].contains("ARAUCO")) {
 			if(csvFile.contains("GUSTAVO")) {
 				return "1405";
@@ -585,9 +705,85 @@ public class Main {
 		}else if(campos[4].contains("CAERN - ")) {
 			if(csvFile.contains("VALFREDO")) {
 			return "3774";}
-		}else if(campos[4].contains("ALGAR TEL") || campos[4].contains("BRISANET GERENCIA") || campos[4].contains("TELEMAR - OI")) {
+		}else if(campos[4].contains("ALGAR ") || campos[4].contains("BRISANET") || campos[4].contains("TELEMAR - OI")) {
 			if(csvFile.contains("VALFREDO")) {
-			return "3775";}
+				return "3775";
+			}else if(csvFile.contains("GUSTAVO")) {
+				return "558";
+			}
+		}else if(campos[4].contains("CLARO") || campos[4].contains("OI S A") ) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "356";}
+		}else if(campos[4].contains("CAGEPA") || campos[4].contains("COMPESA")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "355";}
+		}else if(campos[4].contains("ALLYSON STHEPHEN")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "357";}
+		}else if(campos[4].contains("CM PRODUTOS")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "6553";}
+		}else if(campos[4].contains("F CAMARA DA")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "6429";}
+		}else if(campos[4].contains("Nilson Da Cruz")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "4548";}
+		}else if(campos[4].contains("Maria Estela")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "6429";}
+		}else if(campos[4].contains("Arlei Dos Santos")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "312";}
+		}else if(campos[4].contains("ELIELSON SIL")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "559";}
+		}else if(campos[4].contains("Jaqueline Alves")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "559";}
+		}else if(campos[4].contains("RONIVALDO SOUZA")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "341";}
+		}else if(campos[4].contains("PAULO BRAS")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "341";}
+		}else if(campos[4].contains("PULSES SERVIC")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "357";}
+		}else if(campos[4].contains("UNIAO COMERCI")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "559";}
+		}else if(campos[4].contains("LUCAS RODRIGUE")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "364";}
+		}else if(campos[4].contains("ROGACIANO N NO")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "341";}
+		}else if(campos[4].contains("WAWS COMUNICAC")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "540";}
+		}else if(campos[4].contains("PAULO RAFAEL S")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "365";}
+		}else if(campos[4].contains("ARTKAMIZETAS L")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "4316";}
+		}else if(campos[4].contains("RENATO T Y")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "364";}
+		}else if(campos[4].contains("FRANCISCO DE A")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "341";}
+		}else if(campos[4].contains("DANIEL M L M")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "4544";}
+		}else if(campos[4].contains("W P GRAFICA")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "540";}
+		}else if(campos[4].contains("Tar Custódia") || campos[4].contains("Tarifa") || campos[4].contains("Tar Depós") 
+				|| campos[4].contains("Tar Pag S")) {
+			if(csvFile.contains("GUSTAVO")) {
+			return "373";}
 		}else if(campos[4].contains("MATANA (LI")) {
 			if(csvFile.contains("GUSTAVO")) {
 				return "3884";
@@ -617,6 +813,10 @@ public class Main {
 				return "3943";
 			}else if(csvFile.contains("VALFREDO")) {
 				return "3229";
+			}
+		}else if(campos[4].contains("cartão") && campos[4].contains("EMPRESARIAL")) {
+			if(csvFile.contains("GUSTAVO")) {
+				return "4272";
 			}
 		}else if(campos[4].contains("MBLOG (MAX")) {
 			if(csvFile.contains("GUSTAVO")) {
@@ -689,7 +889,7 @@ public class Main {
 		}else if(campos[4].contains("GADELHA E")) {
 			if(csvFile.contains("VALFREDO")) {
 			return "4609";}
-		}else if(campos[4].contains("ALTERNATIVA -")) {
+		}else if(campos[4].contains("ALTERNATIVA")) {
 			if(csvFile.contains("VALFREDO")) {
 				return "4624";
 			}else if(csvFile.contains("GUSTAVO")) {

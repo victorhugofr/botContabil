@@ -8,8 +8,6 @@ import java.awt.dnd.DropTargetDropEvent;
 import java.io.File;
 import java.util.List;
 
-import javax.swing.BoxLayout;
-import javax.swing.ImageIcon;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -21,6 +19,10 @@ import javax.swing.WindowConstants;
 
 public class MainFrame extends JFrame{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	protected static MainFrame instance;
 	public static final Container startPage = createStartPage();
 	
@@ -53,10 +55,16 @@ public class MainFrame extends JFrame{
 		myPanel.setBounds(30, 130, 720, 400);
 		myPanel.setBackground(Color.lightGray);
 		myPanel.setDropTarget(new DropTarget() {
-		    public synchronized void drop(DropTargetDropEvent evt) {
+		    /**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
+			@SuppressWarnings("unchecked")
+			public synchronized void drop(DropTargetDropEvent evt) {
 		        try {
 		            evt.acceptDrop(DnDConstants.ACTION_COPY);
-		            List<File> droppedFiles = (List<File>)
+					List<File> droppedFiles = (List<File>)
 		                evt.getTransferable().getTransferData(DataFlavor.javaFileListFlavor);
 		            for (File file : droppedFiles) {
 		                final JDialog dlg = new JDialog(instance, true);
@@ -86,9 +94,6 @@ public class MainFrame extends JFrame{
 		                });
 		                t.start();
 		                dlg.setVisible(true);
-
-		                
-		                
 		            }
 		        } catch (Exception ex) {
 		            ex.printStackTrace();
@@ -99,5 +104,4 @@ public class MainFrame extends JFrame{
 		result.add(myPanel);
 		return result;
 	}
-	
 }
