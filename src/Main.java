@@ -15,15 +15,11 @@ public class Main {
             while ((line = br.readLine()) != null) {
                 String[] campos = line.split(cvsSplitBy);
                 if(Double.parseDouble(campos[3].replace(",", ""))<0) {
-                	if(!campos[1].isEmpty()) {
                 		campos[1] = getCodigoBanco(campos,csvFile);
                 		arquivoCSVFinal += campos[0]+";"+campos[1]+";"+campos[2]+";"+campos[3]+";"+campos[4]+"\n";
-                	}
                 }else {
-                	if(!campos[2].isEmpty()) {
                 		campos[2] = getCodigoBanco(campos,csvFile);
                 		arquivoCSVFinal += campos[0]+";"+campos[1]+";"+campos[2]+";"+campos[3]+";"+campos[4]+"\n";
-                	}
                 }
             }
         } catch (IOException e) {
