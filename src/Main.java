@@ -21,8 +21,6 @@ public class Main {
                 		campos[2] = getCodigoBanco(campos,csvFile);
                 		arquivoCSVFinal += campos[0]+";"+campos[1]+";"+campos[2]+";"+campos[3]+";"+campos[4]+"\n";
                 }
-                System.out.println("campos 1: "+campos[1]);
-                System.out.println("campos 2: "+campos[2]);
             }
         } catch (IOException e) {
             e.printStackTrace();
